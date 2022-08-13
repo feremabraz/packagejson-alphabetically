@@ -3,9 +3,6 @@
   "bin": {
     "packagejson-alphabetically": "index.js"
   },
-  "dependencies": {
-    "sort-object": "^3.0.3"
-  },
   "description": "Sorts package.json alphabetically.",
   "devDependencies": {
     "eslint": "^8.21.0",
