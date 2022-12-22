@@ -5,10 +5,10 @@
   },
   "description": "Sorts package.json alphabetically.",
   "devDependencies": {
-    "eslint": "^8.21.0",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.1",
-    "prettier": "^2.7.1"
+    "husky": "^8.0.2",
+    "prettier": "^2.8.1"
   },
   "keywords": [
     "sort",
