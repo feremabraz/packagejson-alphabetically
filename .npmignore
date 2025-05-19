@@ -1,8 +1,7 @@
 .husky
-.eslintrc.json
-.eslintignore
-.prettierignore
-.prettierrc.json
 pnpm-lock.yaml
 assets
 *.tgz
+vitest.config.js
+__tests__
+coverage

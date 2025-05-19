@@ -1,27 +1,30 @@
 {
-  "author": "Fernando Braz <fb@gamekaiju.monster> (https://gamekaiju.monster/)",
+  "author": "Fernando Braz <hello@fernandobraz.online> (https://fernandobraz.online/)",
   "bin": {
     "packagejson-alphabetically": "index.js"
   },
   "description": "Sorts package.json alphabetically.",
   "devDependencies": {
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "husky": "^8.0.3",
-    "prettier": "^2.8.2"
+    "@biomejs/biome": "^1.9.4",
+    "@vitest/coverage-v8": "^3.1.4",
+    "husky": "^9.1.7",
+    "vitest": "^3.1.4"
   },
-  "keywords": [
-    "sort",
-    "package.json",
-    "alphabetically"
-  ],
+  "keywords": ["sort", "package.json", "alphabetically"],
   "license": "MIT",
   "main": "index.js",
   "name": "packagejson-alphabetically",
   "scripts": {
-    "check:lint": "pnpm exec eslint . && pnpm exec prettier . --check",
-    "lint": "pnpm exec eslint . --fix && pnpm exec prettier . --write"
+    "check:format": "biome format .",
+    "check:lint": "biome check .",
+    "lint": "biome check --write .",
+    "format": "biome format --write .",
+    "prepare": "husky",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "type": "module",
-  "version": "1.1.1"
+  "files": ["index.js"],
+  "version": "1.1.2",
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }
