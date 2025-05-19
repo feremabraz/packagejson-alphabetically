@@ -13,7 +13,7 @@
   "keywords": ["sort", "package.json", "alphabetically"],
   "license": "MIT",
   "main": "index.js",
-  "name": "packagejson-alphabetically",
+  "name": "packagejson-alphabetically-reborn",
   "scripts": {
     "check:format": "biome format .",
     "check:lint": "biome check .",
