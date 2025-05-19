@@ -1,6 +1,8 @@
-# packagejson-alphabetically
+# packagejson-alphabetically (reborn)
 
 Sorts package.json alphabetically.
+
+I lost my old npm account XD, so I had to publish this under a new name, sorry!
 
 ![packagejson-alphabetically](assets/packagejson-alphabetically.png)
 
@@ -9,14 +11,14 @@ Sorts package.json alphabetically.
 As a dev dependency:
 
 ```sh
-pnpm add --save-dev packagejson-alphabetically
+pnpm add --save-dev packagejson-alphabetically-reborn
 pnpm exec packagejson-alphabetically
 ```
 
 Directly:
 
 ```sh
-pnpm dlx packagejson-alphabetically
+pnpm dlx packagejson-alphabetically-reborn
 ```
 
 ## CLI Options
